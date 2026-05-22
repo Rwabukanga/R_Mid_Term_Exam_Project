@@ -1,14 +1,14 @@
-"0","set.seed(123)
-
-train_index <- createDataPartition(regression_data$Close,
-                                   p = 0.8,
-                                   list = FALSE)
-
-train_data <- regression_data[train_index, ]
-test_data <- regression_data[-train_index, ]
-
-cat(""Training Set Size:"", nrow(train_data), ""\n"")
-"
+"0",""
+"0","set.seed(123)"
+"0",""
+"0","train_index <- createDataPartition(regression_data$Close,"
+"0","                                   p = 0.8,"
+"0","                                   list = FALSE)"
+"0",""
+"0","train_data <- regression_data[train_index, ]"
+"0","test_data <- regression_data[-train_index, ]"
+"0",""
+"0","cat(""Training Set Size:"", nrow(train_data), ""\n"")"
 "1","Training Set Size:"
 "1"," "
 "1","4246"

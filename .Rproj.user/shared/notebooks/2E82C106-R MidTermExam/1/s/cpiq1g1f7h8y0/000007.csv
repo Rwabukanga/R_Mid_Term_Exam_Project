@@ -1,6 +1,0 @@
-"0","ggplot(zee_data, aes(x = Date, y = Volume)) +"
-"0","  geom_line(color = ""purple"") +"
-"0","  labs(title = ""Sales Volume Trend"","
-"0","       x = ""Date"","
-"0","       y = ""Volume"") +"
-"0","  theme_minimal()"

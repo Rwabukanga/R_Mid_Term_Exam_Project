@@ -1,8 +1,7 @@
-"0","model <- lm(Close ~ Prev.Close + Open + High + Low + Volume,
-            data = train_data)
-
-summary(model)
-"
+"0","model <- lm(Close ~ Prev.Close + Open + High + Low + Volume,"
+"0","            data = train_data)"
+"0",""
+"0","summary(model)"
 "1","
 Call:
 "
