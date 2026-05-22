@@ -1,0 +1,8 @@
+"0","# Set working directory"
+"0","setwd(""C:/Users/jeandedieu.rwabukang/Documents/R Assignment for Import/MidTermExam/archive"")"
+"0",""
+"0","# Load datasets"
+"0","zee_data <- read.csv(""C:/Users/jeandedieu.rwabukang/Documents/R Assignment for Import/MidTermExam/archive/ZEEL.csv"")"
+"0",""
+"0","# View zee_data"
+"0","head(zee_data)"

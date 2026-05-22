@@ -1,0 +1,6 @@
+"0","ggplot(zee_data, aes(x = Percent_Change)) +"
+"0","  geom_histogram(fill = ""orange"", bins = 30) +"
+"0","  labs(title = ""Distribution of Percentage Change"","
+"0","       x = ""Percentage Change"","
+"0","       y = ""Frequency"") +"
+"0","  theme_minimal()"

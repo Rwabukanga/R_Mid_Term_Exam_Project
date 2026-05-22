@@ -1,0 +1,17 @@
+"0","# Percentage change trend
+p2 <- ggplot(zee_data, aes(x = Date, y = Percent_Change)) +
+  geom_line(color = ""red"") +
+  labs(title = ""Percentage Change Trend"",
+       x = ""Date"",
+       y = ""% Change"") +
+  theme_minimal()
+
+print(p2)
+"
+"1","[1m[33mError[39m in `geom_line()`:[22m
+[38;5;232m[33m![38;5;232m Problem while computing aesthetics.
+[36mℹ[38;5;232m Error occurred in the 1st layer.[39m
+[1mCaused by error:[22m
+[33m![39m object 'Percent_Change' not found
+[90mRun `]8;;x-r-run:rlang::last_trace()rlang::last_trace()]8;;` to see where the error occurred.[39m
+"

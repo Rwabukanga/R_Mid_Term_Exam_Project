@@ -1,0 +1,3 @@
+"0",""
+"0","ADANI_PORTS <- read.csv(""C:/Users/jeandedieu.rwabukang/Documents/R Assignment for Import/MidTermExam/archive/ADANIPORTS.csv"")"
+"0","head(ADANI_PORTS)"

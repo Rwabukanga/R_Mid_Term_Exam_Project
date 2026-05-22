@@ -1,0 +1,24 @@
+"0","set.seed(123)
+
+train_index <- createDataPartition(regression_data$Close,
+                                   p = 0.8,
+                                   list = FALSE)
+
+train_data <- regression_data[train_index, ]
+test_data <- regression_data[-train_index, ]
+
+cat(""Training Set Size:"", nrow(train_data), ""\n"")
+"
+"1","Training Set Size:"
+"1"," "
+"1","4246"
+"1"," "
+"1","
+"
+"0","cat(""Testing Set Size:"", nrow(test_data), ""\n"")"
+"1","Testing Set Size:"
+"1"," "
+"1","1060"
+"1"," "
+"1","
+"

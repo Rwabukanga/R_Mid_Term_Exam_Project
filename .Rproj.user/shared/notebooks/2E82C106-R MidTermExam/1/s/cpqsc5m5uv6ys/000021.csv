@@ -1,0 +1,3 @@
+"0","vedanta_data <- read.csv(""C:/Users/jeandedieu.rwabukang/Documents/R Assignment for Import/MidTermExam/archive/VEDL.csv"")"
+"0",""
+"0","head(vedanta_data)"

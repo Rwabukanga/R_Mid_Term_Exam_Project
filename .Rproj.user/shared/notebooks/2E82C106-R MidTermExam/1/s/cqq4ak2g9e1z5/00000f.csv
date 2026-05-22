@@ -1,0 +1,34 @@
+"0","predictions <- predict(model, test_data)
+
+#Evaluate Model Performance
+# RMSE
+rmse <- sqrt(mean((test_data$Close - predictions)^2))
+
+# MAE
+mae <- mean(abs(test_data$Close - predictions))
+
+# R-squared
+r2 <- cor(test_data$Close, predictions)^2
+
+cat(""RMSE:"", rmse, ""\n"")
+"
+"1","RMSE:"
+"1"," "
+"1","4.107454"
+"1"," "
+"1","
+"
+"0","cat(""MAE:"", mae, ""\n"")"
+"1","MAE:"
+"1"," "
+"1","2.25627"
+"1"," "
+"1","
+"
+"0","cat(""R-squared:"", r2, ""\n"")"
+"1","R-squared:"
+"1"," "
+"1","0.9993964"
+"1"," "
+"1","
+"

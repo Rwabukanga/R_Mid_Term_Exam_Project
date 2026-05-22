@@ -1,0 +1,3 @@
+"0",""
+"0","ASIAN_PAINT <- read.csv(""C:/Users/jeandedieu.rwabukang/Documents/R Assignment for Import/MidTermExam/archive/ASIANPAINT.csv"")"
+"0","head(ASIAN_PAINT)"
